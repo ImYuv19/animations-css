@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/zolla-outlined');
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        #glow{
+            color: white;
+            font-family:zolla outlined, sans-serif;
+            font-size: 200px;
+
+            text-shadow: 0 0 5px #ffffff,
+                         0 0 10px #ffffff,
+                         0 0 20px #ffffff,
+                         0 0 40px #5d5d5d,
+                         0 0 80px #767373;
+
+                        animation: animeSlide 9s cubic-bezier(0.25, 0.1, 0.25, 1) infinite;
+        }
+
+        /* @keyframes cinematicSlide {
+            0% {
+                text-shadow: 0 0 5px #ffffff,
+                             0 0 10px #ffffff,
+                             0 0 20px #ffffff,
+                             0 0 40px #5d5d5d,
+                             0 0 80px #767373;
+            }
+            50% {
+                text-shadow: 0 0 5px #ffffff,
+                             0 0 10px #ffffff,
+                             0 0 20px #ffffff,
+                             0 0 40px #ffffff,
+                             0 0 80px #5d5d5d,
+                             0 0 160px #767373;
+                             0 0 320px #767373;
+                             
+            }
+            100% {
+                text-shadow: 0 0 5px #ffffff,
+                             0 0 10px #ffffff,
+                             0 0 20px #ffffff,
+                             0 0 40px #5d5d5d,
+                             0 0 80px #767373;
+            } */
+        @keyframes animeSlide {
+    
+    0% {
+        transform: translateX(-100vw) scale(0.6);
+        filter: blur(25px);
+        opacity: 0;
+        text-shadow: 0 0 5px #ffffff, 
+                     0 0 10px #ffffff, 
+                     0 0 20px #ffffff, 
+                     0 0 40px #5d5d5d, 
+                     0 0 80px #767373;
+    }
+
+    
+    22% {
+        transform: translateX(0) scale(1);
+        filter: blur(50x);
+        opacity: 1;
+        
+        text-shadow: 0 0 5px #ffffff, 
+                     0 0 10px #ffffff, 
+                     0 0 20px #ffffff, 
+                     0 0 40px #ffffff, 
+                     0 0 80px #5d5d5d;
+    }
+    40% {
+        transform: translateX(0) scale(1);
+        filter: blur(0px);
+        opacity: 1;
+        
+        text-shadow: 0 0 5px #ffffff, 
+                     0 0 10px #ffffff, 
+                     0 0 20px #ffffff, 
+                     0 0 40px #ffffff, 
+                     0 0 80px #5d5d5d;
+    }
+      48% {
+        transform: translateX(0) scale(1);
+        filter: blur(0px);
+        opacity: 1;
+        
+        text-shadow: 0 0 5px #ffffff, 
+                     0 0 10px #ffffff, 
+                     0 0 20px #ffffff, 
+                     0 0 40px #ffffff, 
+                     0 0 80px #5d5d5d;
+    }
+
+    47.5% {
+        transform: translateX(0) scale(1.5);
+        filter: blur(0x);
+        opacity: 1;
+        
+        text-shadow: 0 0 5px #ffffff, 
+                     0 0 10px #ffffff, 
+                     0 0 20px #ffffff, 
+                     0 0 40px #ffffff, 
+                     0 0 80px #5d5d5d;
+    }
+    50% {
+        transform: translateX(0) scale(1.5);
+        filter: blur(0px);
+        opacity: 1;
+        
+        text-shadow: 0 0 5px #ffffff, 
+                     0 0 10px #ffffff, 
+                     0 0 20px #ffffff, 
+                     0 0 40px #ffffff, 
+                     0 0 80px #5d5d5d;
+    }
+    53% {
+        transform: translateX(0) scale(1);
+        filter: blur(0px);
+        opacity: 1;
+        
+        text-shadow: 0 0 5px #ffffff, 
+                     0 0 10px #ffffff, 
+                     0 0 20px #ffffff, 
+                     0 0 40px #ffffff, 
+                     0 0 80px #5d5d5d;
+    }
+
+
+      60% {
+        transform: translateX(0) scale(1);
+        filter: blur(0px);
+        opacity: 1;
+        
+        text-shadow: 0 0 5px #ffffff, 
+                     0 0 10px #ffffff, 
+                     0 0 20px #ffffff, 
+                     0 0 40px #ffffff, 
+                     0 0 80px #5d5d5d;
+    }
+
+    
+    78% {
+        transform: translateX(0) scale(1);
+        filter: blur(0px);
+        opacity: 1;
+        text-shadow: 0 0 5px #ffffff, 
+                     0 0 10px #ffffff,
+                     0 0 20px #ffffff, 
+                     0 0 40px #ffffff, 
+                     0 0 80px #5d5d5d;
+    }
+
+    
+    100% {
+        transform: translateX(100vw) scale(0.6);
+        filter: blur(25px);
+        opacity: 1;
+        text-shadow: 0 0 5px #ffffff,
+                     0 0 10px #ffffff, 
+                     0 0 20px #ffffff,
+                     0 0 40px #5d5d5d,
+                     0 0 80px #767373;
+    }
+}
+    </style>
+</head>
+<body>
+    <div id="glow">uvRaj</div>
+</body>
+</html>
